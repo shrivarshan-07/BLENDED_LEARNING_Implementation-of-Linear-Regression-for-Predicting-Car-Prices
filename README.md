@@ -77,7 +77,7 @@ plt.tight_layout()
 ```
 
 ## Output:
-![Uploading image.png…]()
+<img width="338" height="300" alt="image" src="https://github.com/user-attachments/assets/0b76080c-749d-4fe9-af8d-23b1e47b0cdd" />
 
 
 ![Screenshot_4-2-2026_94441_localhost](https://github.com/user-attachments/assets/979536c0-07b0-4848-a2c0-8f304a8b8c1a)
