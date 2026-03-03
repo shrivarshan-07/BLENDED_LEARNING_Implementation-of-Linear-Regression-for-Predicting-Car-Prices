@@ -77,7 +77,8 @@ plt.tight_layout()
 ```
 
 ## Output:
-![Screenshot_4-2-2026_94422_localhost](https://github.com/user-attachments/assets/ce335f9d-de0b-4d53-9ea2-5d3a994a7183)
+![Uploading image.png…]()
+
 
 ![Screenshot_4-2-2026_94441_localhost](https://github.com/user-attachments/assets/979536c0-07b0-4848-a2c0-8f304a8b8c1a)
 
