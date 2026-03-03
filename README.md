@@ -1,19 +1,22 @@
-Implementation-of-Linear-Regression-for-Predicting-Car-Prices
-AIM:
+# BLENDED_LEARNING
+# Implementation-of-Linear-Regression-for-Predicting-Car-Prices
+## AIM:
 To write a program to predict car prices using a linear regression model and test the assumptions for linear regression.
 
-Equipments Required:
-Hardware – PCs
-Anaconda – Python 3.7 Installation / Jupyter notebook
-Algorithm
-Load the car price dataset and select features (engine size, horsepower, mileage) and target (price).
+## Equipments Required:
+1. Hardware – PCs
+2. Anaconda – Python 3.7 Installation / Jupyter notebook
+
+## Algorithm
+1. Load the car price dataset and select features (engine size, horsepower, mileage) and target (price).
+
 2.Split the data into training and testing sets, then standardize the feature values.
 
 3.Train a Linear Regression model using the training data and predict prices for the test data.
 
 4.Evaluate the model using performance metrics (MSE, RMSE, MAE, R²) and visualize results to check model accuracy.
-
-Program:
+## Program:
+```
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -71,14 +74,16 @@ sm.qqplot(residuals, line='45', fit=True, ax=ax2)
 ax2.set_title("Q-Q Plot")
 plt.tight_layout()
 
-Output:
-Screenshot_4-2-2026_94422_localhost
+```
 
-Screenshot_4-2-2026_94441_localhost
+## Output:
+![Screenshot_4-2-2026_94422_localhost](https://github.com/user-attachments/assets/ce335f9d-de0b-4d53-9ea2-5d3a994a7183)
 
-Screenshot_4-2-2026_9454_localhost
+![Screenshot_4-2-2026_94441_localhost](https://github.com/user-attachments/assets/979536c0-07b0-4848-a2c0-8f304a8b8c1a)
 
-Screenshot_4-2-2026_94522_localhost
+![Screenshot_4-2-2026_9454_localhost](https://github.com/user-attachments/assets/63e0892a-c17d-43a7-8081-bafe2df206ae)
 
-Result:
+![Screenshot_4-2-2026_94522_localhost](https://github.com/user-attachments/assets/4cf744ce-4761-49a0-8402-da89e41f9a89)
+
+## Result:
 Thus, the program to implement a linear regression model for predicting car prices is written and verified using Python programming, along with the testing of key assumptions for linear regression.
